@@ -19,6 +19,7 @@ public class 斐波那契数列 {
 
 class T {
     public int fibonacci(int n) {
+       //用于递归输出第Sc位数是什么
         if (n >= 1) {
             if (n == 1 || n == 2) {
                 return 1;
@@ -27,6 +28,7 @@ class T {
             }
         } else {
             return -1;
+            //用于返回-1来确定输出结果是否有误
         }
     }
 }
